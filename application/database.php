@@ -15,11 +15,11 @@ return [
     // 服务器地址
     'hostname'        => 'localhost',
     // 数据库名
-    'database'        => 'anguodong',
+    'database'        => '',
     // 用户名
-    'username'        => 'root',
+    'username'        => '',
     // 密码
-    'password'        => '038930',
+    'password'        => '',
     // 端口
     'hostport'        => '',
     // 连接dsn
