@@ -2,7 +2,7 @@
 namespace app\index\controller;
 use think\Controller;
 use think\Request;
-
+use think\Server;
 
 /**
  * 用户类
@@ -20,7 +20,7 @@ class User extends Controller
 			return Server::resolve($param,'连接通过',1);
 	}
 
-	
+
 	public function login_get(Request $request){
 
 
