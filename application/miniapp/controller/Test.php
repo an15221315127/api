@@ -10,7 +10,7 @@ use app\miniapp\server\Server;
 /**
  * 
  */
-class Text extends Controller
+class Test extends Controller
 {
 	
 	public function login_post(Request $request){
