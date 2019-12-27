@@ -2,7 +2,7 @@
 namespace app\index\controller;
 use think\Controller;
 use think\Request;
-use think\Server;
+use app\miniapp\server\Server;
 
 /**
  * 用户类
