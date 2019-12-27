@@ -1,7 +1,6 @@
 <?php
 namespace app\miniapp\controller;
 use think\Request;
-use think\Exception;
 use think\Controller;
 use app\miniapp\server\Server;
 

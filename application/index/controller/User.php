@@ -12,21 +12,20 @@ class User extends Controller
 
 	
 
-	/**
-	* @param username
-	* @param password
-	* @return userInfo
-	*/
-	login(Request $request){
-
-		$username = $request->post('username');
-		$password = $request->post('password');
-
-			
+	public function login_post(Request $request){
 
 
+			$param = $request->post();
+
+			return Server::resolve($param,'连接通过',1);
+	}
+
+	
+	public function login_get(Request $request){
 
 
+			$param = $request->get();
 
+			return Server::resolve($param,'连接通过',1);
 	}
 }
