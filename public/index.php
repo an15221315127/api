@@ -8,7 +8,6 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
 // [ 应用入口文件 ]
 header('Content-Type:application/json;charset=UTF-8');
 header('Access-Control-Allow-Origin:*');
